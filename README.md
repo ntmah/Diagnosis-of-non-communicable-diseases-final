@@ -17,16 +17,24 @@ The system is deployed as a web application that integrates:
 * **AI/ML:** OCR and Chatbot Systems Using Gemini API, Custom Neural Network (from scratch)
 * **Database:** MongoDB
 ## Model Architecture
+
+| Condition       | Input Layers | Hidden Layers | Output Layers |
+|-----------------|-------------|--------------|--------------|
+| Diabetes        |             |              |              |
+| Hypertension    |             |              |              |
+| Dyslipidemia    |             |              |              |	
+
+
 ## Optimization Comparison
 ## Experimental Results
-## System Pipeline
+## System Architecture
 <img width="2798" height="1159" alt="image" src="https://github.com/user-attachments/assets/248e565a-5b08-4c38-a980-0220b7f6236e" />
 
 ## Live Demo
 
 Web Application: https://webkltn-frontend.onrender.com
 
-Video Demo: [![Watch the demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/ZzX7h1YlnxI)
+Video Demo: [![Watch the demo](https://img.youtube.com/vi/https://youtu.be/ZzX7h1YlnxI/0.jpg)](https://youtu.be/ZzX7h1YlnxI)
 
 
 
