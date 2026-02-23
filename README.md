@@ -11,11 +11,42 @@ The system is deployed as a web application that integrates:
 - OCR for extracting medical parameters from health forms
 - A prediction API
 - A chatbot interface powered by Gemini API
+- 7-day blood glucose level prediction feature
 ## Tech Stack
 * **Frontend:** React / HTML CSS 
 * **Backend:** FastAPI / Python
 * **AI/ML:** OCR and Chatbot Systems Using Gemini API, Custom Neural Network (from scratch)
 * **Database:** MongoDB
+## Dataset
+### Diabetes
+## Dataset
+
+The dataset consists of 264 patient records
+with 10 structured medical indicators.
+
+- 3 disease classes
+- Train/Validation/Test split: 60/20/20
+- Data preprocessing: normalization, SMOTE
+
+### Hypertension
+## Dataset
+
+The dataset consists of 219 patient records
+with 8 structured medical indicators.
+
+- 4 disease classes
+- Train/Validation/Test split: 60/20/20
+- Data preprocessing: normalization, SMOTE
+
+### Dyslipidemia
+## Dataset
+
+The dataset consists of 264 patient records
+with 4 structured medical indicators.
+
+- 3 disease classes
+- Train/Validation/Test split: 60/20/20
+- Data preprocessing: normalization, SMOTE
 
 ## Model Architecture
 ### Diabetes
@@ -44,6 +75,8 @@ The system is deployed as a web application that integrates:
 - Mini-Batch Gradient Descent
 - Adam
 ## Experimental Results
+<img width="1000" height="600" alt="Code_Generated_Image (7)" src="https://github.com/user-attachments/assets/d5493078-35d1-42b5-9bb6-93e8d8c355ed" />
+
 ### Diabetes
 #### Metrics
 | Model               | Precision | Recall | F1-Score |
@@ -89,6 +122,14 @@ The system is deployed as a web application that integrates:
 | Class 2           | 0        | 0        | 13       |
 ## System Architecture
 <img width="2798" height="1159" alt="image" src="https://github.com/user-attachments/assets/248e565a-5b08-4c38-a980-0220b7f6236e" />
+
+## 7-Day Blood Glucose Forecasting
+
+In addition to disease classification, the system includes
+a 7-day blood glucose level prediction feature.
+
+A Linear Regression model was implemented
+to estimate future glucose levels based on historical data.
 
 ## Live Demo
 
