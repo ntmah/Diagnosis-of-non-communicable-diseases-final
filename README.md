@@ -17,12 +17,24 @@ The system is deployed as a web application that integrates:
 * **AI/ML:** OCR and Chatbot Systems Using Gemini API, Custom Neural Network (from scratch)
 * **Database:** MongoDB
 ## Model Architecture
+### Diabetes
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e89bf03e-3475-44d3-bb6a-129681c2ef54" width="711" height="428"/>
+</p>
 
-| Condition       | Input Layers | Hidden Layers | Output Layers |
-|-----------------|-------------|--------------|--------------|
-| Diabetes        |             |              |              |
-| Hypertension    |             |              |              |
-| Dyslipidemia    |             |              |              |	
+
+### Hypertension
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/dc848f44-ad30-49e4-b1d5-cff2d930f725" width="711" height="428"/>
+</p>
+
+### Dyslipidemia
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4e4dfc74-6c46-490b-8012-e3086f27240a" width="711" height="428"/>
+</p>
 
 
 ## Optimization Comparison
