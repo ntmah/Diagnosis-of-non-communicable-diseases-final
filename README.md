@@ -46,9 +46,47 @@ The system is deployed as a web application that integrates:
 ## Experimental Results
 ### Diabetes
 #### Metrics
+| Model               | Precision | Recall | F1-Score |
+|---------------------|-----------|--------|----------|
+| Gradient Descent    | 0.96      | 0.92   | 0.93     |
+| Mini-Batch GD       | 0.96      | 0.94   | 0.95     |
+| Stochastic GD       | 0.96      | 0.94   | 0.95     |
+| Adam                | 0.93      | 0.83   | 0.85     |
 #### Confusion Matrix
+| Actual \ Predicted | Class 0 | Class 1 | Class 2 |
+|--------------------|----------|----------|----------|
+| Class 0           | 18       | 0        | 0        |
+| Class 1           | 4        | 4        | 6        |
+| Class 2           | 0        | 0        | 27       |
 ### Hypertension
+#### Metrics
+| Model               | Precision | Recall | F1-Score |
+|---------------------|-----------|--------|----------|
+| Gradient Descent    | 0.98      | 0.98   | 0.98     |
+| Mini-Batch GD       | 0.98      | 0.98   | 0.98     |
+| Stochastic GD       | 0.98      | 0.98   | 0.98     |
+| Adam                | 0.81      | 0.83   | 0.81     |
+#### Confusion Matrix
+| Actual \ Predicted | Class 0 | Class 1 | Class 2 | Class 3 |
+|--------------------|----------|----------|----------|----------|
+| Class 0           | 17       | 0        | 0        | 0        |
+| Class 1           | 2        | 15       | 1        | 0        |
+| Class 2           | 0        | 2        | 3        | 1        |
+| Class 3           | 0        | 0        | 0        | 3        |
 ### Dyslipidemia
+#### Metrics
+| Model               | Precision | Recall | F1-Score |
+|---------------------|-----------|--------|----------|
+| Gradient Descent    | 0.92      | 0.90   | 0.85     |
+| Mini-Batch GD       | 0.82      | 0.90   | 0.85     |
+| Stochastic GD       | 0.82      | 0.90   | 0.85     |
+| Adam                | 0.79      | 0.89   | 0.82     |
+#### Confusion Matrix
+| Actual \ Predicted | Class 0 | Class 1 | Class 2 |
+|--------------------|----------|----------|----------|
+| Class 0           | 10       | 0        | 0        |
+| Class 1           | 4        | 20       | 6        |
+| Class 2           | 0        | 0        | 13       |
 ## System Architecture
 <img width="2798" height="1159" alt="image" src="https://github.com/user-attachments/assets/248e565a-5b08-4c38-a980-0220b7f6236e" />
 
