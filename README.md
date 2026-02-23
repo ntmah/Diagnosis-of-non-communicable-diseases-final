@@ -25,7 +25,8 @@ The system is deployed as a web application that integrates:
 ## Live Demo
 
 Web Application: https://webkltn-frontend.onrender.com
-[![Watch the demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/ZzX7h1YlnxI)
+
+Video Demo: [![Watch the demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/ZzX7h1YlnxI)
 
 
 
