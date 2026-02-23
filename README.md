@@ -16,7 +16,7 @@ The system is deployed as a web application that integrates:
 * **Backend:** FastAPI / Python
 * **AI/ML:** OCR and Chatbot Systems Using Gemini API, Custom Neural Network (from scratch)
 * **Database:** MongoDB
-## Dataset
+
 ## Model Architecture
 ### Diabetes
 <p align="center">
@@ -39,7 +39,16 @@ The system is deployed as a web application that integrates:
 
 
 ## Optimization Comparison
+- Gradient Descent
+- Stochastic Gradient Descent
+- Mini-Batch Gradient Descent
+- Adam
 ## Experimental Results
+### Diabetes
+#### Metrics
+#### Confusion Matrix
+### Hypertension
+### Dyslipidemia
 ## System Architecture
 <img width="2798" height="1159" alt="image" src="https://github.com/user-attachments/assets/248e565a-5b08-4c38-a980-0220b7f6236e" />
 
