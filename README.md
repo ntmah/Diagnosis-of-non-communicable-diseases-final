@@ -16,6 +16,7 @@ The system is deployed as a web application that integrates:
 * **Backend:** FastAPI / Python
 * **AI/ML:** OCR and Chatbot Systems Using Gemini API, Custom Neural Network (from scratch)
 * **Database:** MongoDB
+## Dataset
 ## Model Architecture
 ### Diabetes
 <p align="center">
